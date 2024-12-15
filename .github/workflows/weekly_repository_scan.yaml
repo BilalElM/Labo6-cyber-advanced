@@ -3,6 +3,7 @@ name: Weekly Code Scan
 on:
   schedule:
     - cron: "0 0 * * 0" # Elke zondag om middernacht
+  workflow_dispatch: # Allow manual triggers for testing
 
 jobs:
   sast_scan:
