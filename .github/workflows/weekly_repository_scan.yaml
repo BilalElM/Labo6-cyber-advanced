@@ -2,7 +2,7 @@ name: Weekly Code Scan
 
 on:
   schedule:
-    - cron: "0 0 * * 0" # Elke zondag om middernacht
+    - cron: "* * * * *" # Elke zondag om middernacht
 
 jobs:
   weekly_scan:
